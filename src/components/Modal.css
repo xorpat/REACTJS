@@ -1,0 +1,49 @@
+.modalBackground {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(200, 200, 200);
+    opacity:0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.modalContainer {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    
+
+}
+
+
+.modalSettingsBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+}
+
+.modalBody {
+    font-size: 12px;
+}
+
+.modalSettingBody {
+}
+
+.linkElement {
+    color:rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+}
